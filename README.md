@@ -1,5 +1,5 @@
-# tool-glsl-editor
-Cross-platform GLSL editor application created with [https://github.com/patriciogonzalezvivo/glslEditor](glslEditor) by [Patricio Gonzalez Vivo](https://github.com/patriciogonzalezvivo).
+# GLSL Editor App
+Cross-platform GLSL editor application created with [glslEditor](https://github.com/patriciogonzalezvivo/glslEditor) and [Electron](https://github.com/electron/electron).
 
 NPM Scripts:  
 `npm run start` : Run the app for testing.  

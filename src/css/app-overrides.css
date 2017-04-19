@@ -3,6 +3,12 @@
     padding-top: 50px !important;
 }
 
+/* Fixes drag issue when attempting to drag a file into non-editor portion of the page. */
+#glsl_editor {
+    display: block;
+    height: 100%;
+}
+
 /* Hides button for currently broken pop-out functionality. */
 .ge_control .ge_control_panel .ge_control_element:nth-child(3){
     display: none;

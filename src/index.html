@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>GLSL Editor</title>
+
+    <link type="text/css" rel="stylesheet" href="../lib/glslEditor/build/glslEditor.css">
+    <link type="text/css" rel="stylesheet" href="./css/app-overrides.css">
+    <script type="application/javascript" src="../lib/glslEditor/build/glslEditor.js"></script>
+    <style>
+      html, body {
+        background-color: rgb(39, 40, 34);
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="glsl_editor"></div>
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+</html>

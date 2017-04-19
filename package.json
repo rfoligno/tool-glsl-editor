@@ -1,0 +1,21 @@
+{
+  "name": "glsl-editor-app",
+  "version": "1.0.0",
+  "description": "Cross-platform GLSL editor application created with https://github.com/patriciogonzalezvivo/glslEditor by Patricio Gonzalez Vivo.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-local": "electron-packager . --out ./build --overwrite",
+    "package-all": "electron-packager . --out ./build --overwrite --all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfoligno/tool-glsl-editor.git"
+  },
+  "author": "Richard Foligno",
+  "devDependencies": {
+    "electron": "^1.6.5",
+    "electron-packager": "^8.6.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,4 @@
+/* Fixes issue with extra padding at the top of the page. */
+.ge_editor {
+    padding-top: 50px !important;
+}

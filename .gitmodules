@@ -1,0 +1,3 @@
+[submodule "lib/glslEditor"]
+	path = lib/glslEditor
+	url = https://github.com/patriciogonzalezvivo/glslEditor

@@ -2,3 +2,14 @@
 .ge_editor {
     padding-top: 50px !important;
 }
+
+/* Hides button for currently broken pop-out functionality. */
+.ge_control .ge_control_panel .ge_control_element:nth-child(3){
+    display: none;
+}
+
+/* Hide buttons for currently broken export functionality. */
+.ge_export_modal .ge_sub_menu:nth-child(3),
+.ge_export_modal .ge_sub_menu:nth-child(4) {
+    display: none;
+}
